@@ -2,8 +2,7 @@ from sys import exit
 from random import randint
 from textwrap import dedent
 
-inventory = {'weapon': 'none',
-    'monster': 0}
+
 
 class Player(object):
     """Trying to create a player class instead of a dict with variables for
